@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+
+<html >
+	<head>
+		<link rel="stylesheet" href="./styles/kukuCSS.css" type="text/css"/>
+
+		<meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+		<meta content="width=device-width,initial-scale=1.0,user-scalable=no,minimum-scale=1.0,maximum-scale=1.0" id="viewport" name="viewport">
+		<meta charset="UTF-8"/>
+		<link rel="stylesheet" href="./styles/lightbox.css">
+		<title>苦苦KUKU布料皮革工作室 BY BAMBOO</title>
+
+	</head>
+
+	<body onload="resize();login();" onresize ="resize()"  data-scroll>
+
+		<div id="wrap">
+			<div class="iconarea">
+				<a class="headicon" id="member" href="LOGIN.html" showhints="登入"></a>
+				<a class="headicon" id="car" href="carpage.html"  showhints="購物車"></a>           
+			</div>
+			<div class="header-inner"> 
+				<ul class="s-nav" >
+					<li>
+						<a class="s-nav-item" href="#every-where-is-painful"  id="header-container">
+							<span class="s-font-body">Every where is painful</span>
+						</a>
+					</li>
+					<li>
+						<a class="s-nav-item" href="#content2">
+							<span class="s-font-body" >巧然的相遇皆是注定的重逢</span>
+						</a>
+					</li>
+					<li>
+						<a class="s-nav-item" href="#content3">
+							<span class="s-font-body">所有味道放進苦苦裡陪伴每次的霧中風景</span>
+						</a>
+					</li>
+					<li>
+						<a class="s-nav-item" href="#content4">
+							<span class="s-font-body">尋苦夥伴</span>
+						</a>
+					</li>
+					<li>
+						<a class="s-nav-item" href="#content5">
+							<span class="s-font-body">聯絡我們</span>
+						</a>
+					</li>
+					<li>
+						<a class="s-nav-item" href="#contact-us">
+							<span class="s-font-body">Contact Us</span>
+						</a>
+					</li>
+					<li>
+						<a class="s-nav-item s-external-link-item" href="http://www.facebook.com/KU.KU.StudioTaiwan" target="_blank">
+							<span class="s-font-body">KU.KU's Facebook</span>
+						</a>
+					</li>
+				</ul>
+			</div>					
+			<div id="page-wrapper">
+				<div class="navPhone">
+					<ul class="p-nav" >
+						<li>
+							<img id="navimg" alt="" src="images//navPhone.png">
+							<ul>
+								<li class="p-nav-li">
+									<a class="p-nav-item" href="#every-where-is-painful" >
+										<span class="p-font-body">Every where is painful</span>
+									</a>
+								</li>
+								<li  class="p-nav-li">
+									<a class="p-nav-item" href="#content2">
+										<span class="p-font-body" >巧然的相遇皆是注定的重逢</span>
+									</a>
+								</li>
+								<li  class="p-nav-li">
+									<a class="p-nav-item" href="#content3">
+										<span class="p-font-body">所有味道放進苦苦裡陪伴每次的霧中風景</span>
+									</a>
+								</li>
+								<li  class="p-nav-li">
+									<a class="p-nav-item" href="#content4">
+										<span class="p-font-body">尋苦夥伴</span>
+									</a>
+								</li>
+								<li  class="p-nav-li">
+									<a class="p-nav-item" href="#content5">
+										<span class="p-font-body">聯絡我們</span>
+									</a>
+								</li>
+								<li  class="p-nav-li">
+									<a class="p-nav-item" href="#contact-us">
+										<span class="p-font-body">Contact Us</span>
+									</a>
+								</li>
+								<li  class="p-nav-li">
+									<a class="p-nav-item s-external-link-item" href="http://www.facebook.com/KU.KU.StudioTaiwan" target="_blank">
+										<span class="p-font-body">KU.KU's Facebook</span>
+									</a>
+								</li>
+								<li  class="p-nav-li">
+									<a class="p-nav-item" href="carpage.html">
+										<span class="p-font-body">Shopping list</span>
+									</a>  
+								</li>
+								<li  class="p-nav-li">
+									<a class="p-nav-item" href="LOGIN.html">
+										<span id="nav-login" class="p-font-body">Member login</span>
+									</a>  
+								</li>
+							</ul>
+						</li>
+					</ul> 
+				</div>			
+				<ul id="mainwrapper" >
+					<li id="every-where-is-painful">
+						<div class="head main_text">
+							<div>
+								<img id="logo" alt="" src="images//logo.png" >
+							</div>
+							<div id="toparticle">
+								<div class="toparcticle_ch">
+									<P v-html="$t('message.foreP1')"></p>
+									<P v-html="$t('message.foreP2')"></p>
+									<P v-html="$t('message.foreP3')"></p>
+									<P v-html="$t('message.foreP4')"></p>
+									<P v-html="$t('message.foreP5')"></p>
+								</div>
+								<div class="toparcticle_en">
+									<p> One day he told me: Everywhere is full of pain and suffering,</p>
+									<p>but we can get through without the feeling if we dig deeper into them.</p>
+									<p>KU.KU is ecstatic, restless, and unstable but self-composed, contained, and calm.</p>
+									<p>KU.KU has the same expression when smiles and cries.</p>	
+								</div>
+							</div>
+						</div>
+					</li>
+					<li id="content2">
+						<div class="main_text twoColumn">
+							<div class="item back1 dad" >
+								<div  class="firstSub xx s-animation-page-slide_in-before">
+									<div >
+										<h1 v-html="$t('message.Accidental')"></h1>
+										<h2>Accidental meeting is destined reunion.</h2>
+										<p class="s-text-color-brown"><strong>獨一無二的手工染皮尋找獨特的你</strong></p>
+									</div>
+								</div>
+							</div>
+							<div class="item">
+								<div class="s-repeatable" >
+									<div data-sorting-index="0" class="s-repeatable-item" >
+										<div class="s-half-column s-animation-page-slide_in-before">
+											<img alt="" src="images//DETAIL.jpg">			
+										</div>									
+										<div class="s-half-column s-animation-page-slide_in-before" >
+											<h3 v-html="$t('message.unique')" class="s-repeatable-item-h1">
+											</h3>
+											<h3 class="s-repeatable-item-h2">
+												<em>Self-composed or passionate of unique KU.KU.</em>
+											</h3>
+											<h6 class="s-repeatable-item-h3">
+												<b>每個你我都是同個你我</b>
+											</h6>
+											<p v-html="$t('message.uniquetext')" class="s-repeatable-item-text" >
+												
+											</p>
+										</div>
+									</div>
+									<div data-sorting-index="1" class="s-repeatable-item" >
+										<div class="s-half-column s-animation-page-slide_in-before">
+											<img alt=""  src="images//DETAIL.jpg">				
+										</div>
+										<div class="s-half-column s-animation-page-slide_in-before" >
+											<h3 v-html="$t('message.Beautiful')" class="s-repeatable-item-h1">	
+		
+											</h3>
+											<h3 class="s-repeatable-item-h2">										
+												<em>Beautiful but vagrant of traveling KU.KU.</em>					
+											</h3>
+											<h6 class="s-repeatable-item-h3">
+												<b>美感與實用的訴求</b>
+											</h6>
+											<p v-html="$t('message.Beautifultext')" class="s-repeatable-item-text" >
+												
+											</p>
+										</div>
+									</div>
+									<div data-sorting-index="2" class="s-repeatable-item" >
+										<div class="s-half-column s-animation-page-slide_in-before" >
+											<img alt=""  src="images//DETAIL2.jpg">			
+										</div>
+										<div class="s-half-column s-animation-page-slide_in-before" >
+											<h3 v-html="$t('message.Whispering')" class="s-repeatable-item-h1">
+											</h3>
+											<h3 class="s-repeatable-item-h2">
+												<em>Whispering of KU.KU's soul.</em>
+											</h3>
+											<h6 class="s-repeatable-item-h3">
+												<b>語言體現生活的感性</b>
+											</h6>
+											<p v-html="$t('message.Whisperingtext')" class="s-repeatable-item-text">
+											</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li id="content3" class="main_text twoColumn" > 
+							<div class="item">
+								<div class="s-repeatable" >
+									<div data-sorting-index="0" class="s-repeatable-item" >
+										<div class="s-half-column s-animation-page-slide_in-before" >
+											<img alt="" src="images//DETAIL.jpg">			
+										</div>									
+										<div class="s-half-column s-animation-page-slide_in-before" >
+											<h3 v-html="$t('message.formed')" class="s-repeatable-item-h1">
+											</h3>
+											<h3 class="s-repeatable-item-h2">
+												<em>Self-composed or passionate of unique KU.KU.</em>
+											</h3>
+											<h6 class="s-repeatable-item-h3">
+												<b>每個你我都是同個你我</b>
+											</h6>
+											<p v-html="$t('message.formedtext')" class="s-repeatable-item-text" >
+											</p>
+										</div>
+									</div>
+									<div data-sorting-index="1" class="s-repeatable-item" >
+										<div class="s-half-column s-animation-page-slide_in-before" >
+											<img alt=""  src="images//DETAIL.jpg">			
+										</div>
+										<div class="s-half-column s-animation-page-slide_in-before" >
+											<h3 v-html="$t('message.Requiring')" class="s-repeatable-item-h1">
+												
+											</h3>
+											<h3 class="s-repeatable-item-h2">
+												<em>Beautiful but vagrant of traveling KU.KU.</em>
+											</h3>
+											<h6 class="s-repeatable-item-h3">
+												<b>美感與實用的訴求</b>
+											</h6>
+											<p v-html="$t('message.Requiringtext')" class="s-repeatable-item-text">
+											</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="item  dad back2">
+								<div  class="firstSub xx s-animation-page-slide_in-before">
+									<div >
+										<h1 v-html="$t('message.favor')"></h1>
+										<h2>Accidental meeting is destined reunion.</h2>
+										<p class="s-text-color-brown"><strong>修練人生的好夥伴</strong></p>
+									</div>
+								</div>
+							</div>
+						
+					</li>
+					<li class="main_text" id="content4">
+
+						<div class="hr"> 
+							<div class="hrSection"> 	 
+								<div class="curveSection"></div>  
+							</div> 		 
+						</div>
+						<div class="productarea">
+							<div class="hilightshow">
+								<div class="showpics">
+									<div class="showpic"></div>
+									<div class="showpic"></div>
+									<div class="showpic"></div>
+									<div class="showpic"></div>
+									<div class="showpic"></div>
+								</div>
+								<div class="title">
+									<h1>尋苦夥伴</h1>
+									<h2>Check out our products.</h2>
+								</div>			
+							</div>	
+							<ul class="slider-dot-wrapper">
+								<li class="slider-dot"></li>
+								<li class="slider-dot"></li>
+								<li class="slider-dot"></li>
+								<li class="slider-dot"></li>
+							</ul>
+							<div class="catalogarea">
+								<table class="catatable">
+									<tr>
+									  	<th colspan="4"><a href="bagPage.html?cata=bag">BAG</a><br/><span>New arrival</span></th>
+									</tr>
+									<tr>
+									  	<td><a href="bagPage.html?cata=bag"><img src="./images/bag.JPG"/></a></td>
+									  	<td><a href="bagPage.html?cata=backpack"><img src="./images/backpack.JPG"/></td>
+									  	<td><a href="bagPage.html?cata=hat"><img src="./images/hat.JPG"/></a></td>
+									  	<td><a href="bagPage.html?cata=wallet"><img src="./images/wallet.JPG"/></a></td>
+									</tr>
+									<tr>
+									  	<th colspan="4"><a href="bagPage.html?cata=wallet">WALLET</a><br/><span>New arrival</span></th>
+									</tr>
+									<tr>
+										<td><a href="bagPage.html?cata=bag"><img src="./images/bag.JPG"/></a></td>
+										<td><a href="bagPage.html?cata=backpack"><img src="./images/backpack.JPG"/></td>
+										<td><a href="bagPage.html?cata=hat"><img src="./images/hat.JPG"/></a></td>
+										<td><a href="bagPage.html?cata=wallet"><img src="./images/wallet.JPG"/></a></td>
+									</tr>
+									<tr>
+										<th colspan="4"><a href="bagPage.html?cata=backpack">BACKPACK</a><br/><span>New arrival</span></th>
+									</tr>
+									<tr>
+										<td><a href="bagPage.html?cata=bag"><img src="./images/bag.JPG"/></a></td>
+										<td><a href="bagPage.html?cata=backpack"><img src="./images/backpack.JPG"/></td>
+										<td><a href="bagPage.html?cata=hat"><img src="./images/hat.JPG"/></a></td>
+										<td><a href="bagPage.html?cata=wallet"><img src="./images/wallet.JPG"/></a></td>
+									</tr>			
+									<tr>
+										<th colspan="4"><a href="bagPage.html?cata=hat">HAT</a><br/><span>New arrival</span></th>
+									</tr>
+									<tr>
+										<td><a href="bagPage.html?cata=bag"><img src="./images/bag.JPG"/></a></td>
+										<td><a href="bagPage.html?cata=backpack"><img src="./images/backpack.JPG"/></td>
+										<td><a href="bagPage.html?cata=hat"><img src="./images/hat.JPG"/></a></td>
+										<td><a href="bagPage.html?cata=wallet"><img src="./images/wallet.JPG"/></a></td>
+									</tr>	
+									<tr>
+										<th colspan="4"><a href="bagPage.html?cata=cloth">CLOTH</a><br/><span>New arrival</span></th>
+									<tr>
+										<td><a href="bagPage.html?cata=bag"><img src="./images/bag.JPG"/></a></td>
+										<td><a href="bagPage.html?cata=backpack"><img src="./images/backpack.JPG"/></td>
+										<td><a href="bagPage.html?cata=hat"><img src="./images/hat.JPG"/></a></td>
+										<td><a href="bagPage.html?cata=wallet"><img src="./images/wallet.JPG"/></a></td>
+									</tr>																														
+								</table>
+							</div>				
+	
+						</div>
+					</li>
+					<li class="main_text twoColumn" id="content5">
+							<div class="item back3" >
+								<div class="xx s-animation-page-slide_in-before">								
+									<h1>聯絡我們</h1>
+									<h2>Connect With Us</h2>
+								</div>
+							</div>
+							<div class="item">
+
+									<div class="s-ratio-box" style="-ms-grid-column: 1; grid-column: auto;">
+										<a href="http://www.facebook.com/KU.KU.StudioTaiwan" target="_blank">
+											<img alt="" title="" class="crop-default" data-description="" width="160" height="160" src="images/fb-icon.png">
+											<p>KU.KU</p>
+										</a>
+									</div>							
+									<div class="s-ratio-box"  style="-ms-grid-column: 2; grid-column: auto;">
+										<a href="https://www.instagram.com/kukustudiotaiwan" target="_blank">
+											<img alt="" title="" class="crop-default" data-description="" width="160" height="160" src="images/instagram-icon.png">
+											<p>KU.KU</p>											
+										</a>
+									</div>	
+															
+								<div class="s-ratio-box">
+									<img alt="" title="" class="crop-default" data-description="" width="160" height="160" src="images/email-icon.png">
+									<p>kukustudiotaiwan<wbr/>@gmail.com</p>
+								</div>	
+
+							</div>	
+					</li>
+					<li id="contact-us">
+						<div class="contactus main_text">
+							<div class="textblock">
+								<h1>Contact Us</h1>
+								<h2>Don't be afraid to reach out.</h2>
+								<div class="textbox">
+									<!-- 寄件者姓名    -->
+									<input id="nameText" type="text" name="Name" placeholder="姓名(name)" required>  <!-- required 必填欄位 ，placeholder 預設內容--> 
+								</div>
+								<div class="textbox">
+									<!-- 寄件者email -->
+									<input id="emailText" type="email" name="Email" placeholder="Email" required>
+								</div>	
+								<div class="textbox">
+									<!-- 郵件主旨 -->
+									<input  id="subText" type="text" name="Subject" aria-invalid="false" placeholder="主旨(subject)" required>
+								</div>
+								<div class="textbox">							
+									<!-- 郵件內容 -->
+									<textarea id="bodyText" name="your-message" aria-required="true" aria-invalid="false" placeholder="你的訊息(Your Message)" required></textarea>
+								</div>
+								<div class="textbox">							
+									<!-- 傳送按鈕 -->
+									<input type="button" value="Submit" onclick="submitHandler();">
+									<a id="mailTo"></a>
+								</div>	
+							</div>		
+						</div>				
+					</li>					
+				</ul>
+			</div>
+		</div>
+	<script src="https://unpkg.com/vue/dist/vue.min.js"></script>
+	<script src="https://unpkg.com/vue-i18n/dist/vue-i18n.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	
+	<!--script type="text/javascript" src="bScrollTrigger.js"></script>
+	<script src="https://code.jquery.com/jquery-1.12.4.min.js" 
+	integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ"
+	crossorigin="anonymous"></script>
+	<script src="./scripts/isOnScreen-master/jquery.isonscreen.js"></script>
+	<script src="./scripts/ScrollTrigger-master/dist/ScrollTrigger.min.js"></script--> 
+
+	<script type="text/javascript"  src="./scripts/lang.js"></script>
+	<script type="text/javascript"  src="./scripts/kukuscript.js"></script>
+
+	</body>
+
+</html>

@@ -1,0 +1,60 @@
+<html >
+	<head>
+		<link rel="stylesheet" href="./styles/checkout.css" type="text/css"/>
+		<meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+		<meta content="width=device-width,initial-scale=1.0,user-scalable=no,minimum-scale=1.0,maximum-scale=1.0" id="viewport" name="viewport">
+		<meta charset="UTF-8"/>
+		<title>苦苦KUKU布料皮革工作室 BY BAMBOO</title>
+	</head>
+
+    <body onload="finalonload()">
+        <header>
+            <a href="index.html"><h1>KUKU</h1></a>
+        </header>
+        <div class="stepline">
+            <div class="stepicon step" onclick="location.href='carpage.html';"></div>
+            <div class="stepicon step" onclick="location.href='pay.html';"></div>
+            <div class="stepicon step_now"></div>
+            <div class="stepicon step"></div> 
+        </div>
+        <h2>購物清單</h2>
+        <div id="carList">
+            <table id="cartable"  width="100%" >
+                <th>商品</th>
+                <th>價格</th> 
+                <th>數量</th>
+                <tbody>
+                </tbody>
+            </table>
+        </div>
+        <div class="subPrice"></div>
+
+        <h2>運送資訊</h2>
+        <table id="memberinfor"  width="100%" >
+            <tr>
+                <td><label>買主名稱</label></td>
+                <td><div class="textbox"><input type="text" name="member_name" id="mname" maxlength="40"></div></td>
+            </tr>
+            <tr id="tr_mphone">
+                <td><label>電話</label></td>
+                <td><div class="textbox"><input type="text" name="member_mobile" id="mphone" size="10" maxlength="30"/></div></td>
+            </tr>
+            <tr>
+                <td><label>市話</label></td>
+                <td><div class="textbox"><input type="text" name="member_tel" id="mtel" maxlength="30"/></div></td>
+              </tr>
+            <tr>
+                <td><label>Email</label></td>
+                <td><div class="textbox"><input type="text" name="member_email" id="mmail" maxlength="50"/></div></td>
+            </tr>
+            <tr>
+                <td><label>收件地址</label></td>
+                <td>
+                  <div class="textbox"><input type="text" name="member_addr" id="maddr" maxlength="100"/></div>
+                </td>
+            </tr>
+        </table>
+        <a>確認</a>
+        <script type="text/javascript"  src="./scripts/carpage.js"></script>
+    </body>
+</html>

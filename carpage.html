@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<head>
+<meta charset="UTF-8">
+<meta content="width=device-width,initial-scale=1.0,user-scalable=no,minimum-scale=1.0,maximum-scale=1.0" id="viewport" name="viewport">
+<link rel="stylesheet" href="./styles/checkout.css" type="text/css"/>
+<title>購物車</title>
+</head>
+<body onload="carpageOnload();">
+<header>
+    <a href="index.html"><h1>KUKU</h1></a>
+</header>
+<div class="stepline">
+    <div class="stepicon step_now" ></div>
+    <div class="stepicon step" onclick="location.href='pay.html';"></div>
+    <div class="stepicon step" onclick="location.href='finalcheck.html';"></div>
+    <div class="stepicon step"></div> 
+</div>
+<div id="carList">
+    <table id="listtable"  width="100%" >
+    <th>確認</th>
+    <th>商品</th>
+    <th>價格</th> 
+    <th>數量</th>
+    <th>操作</th>
+    <tbody>
+    </tbody>
+    </table>
+</div>
+<div class="subPrice"></div>
+<a href="#" id="btnClear" onclick="clearall()">清空購物車</a>
+<a href="index.html#content4">繼續購物</a>
+<a class="CheckButton" id="goStep2" href="pay.html">運送資訊確認</a>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script type="text/javascript"  src="./scripts/carpage.js"></script>
+</body>
+</html>

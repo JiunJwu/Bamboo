@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<head>
+<meta charset="UTF-8">
+<meta content="width=device-width,initial-scale=1.0,user-scalable=no,minimum-scale=1.0,maximum-scale=1.0" id="viewport" name="viewport">
+<link rel="stylesheet" href="./styles/checkout.css" type="text/css"/>
+<title>Register</title>
+</head>
+<body onload="login()">
+    <header>
+        <a href="index.html"><h1>KUKU</h1></a>
+    </header>
+    <form method="POST" action="login_php.php">
+        <div class="loginform">
+        請輸入會員註冊資料
+        <div id="register_failed_show">抱歉，帳號重複，請註冊其他帳號</div>
+        <div class="textbox">
+            <span>帳號<span>
+            <input type="text" id="account" name="username" required></input>
+        </div>
+        <div class="textbox">
+            <span>密碼<span>
+            <input type="password" id="password" name="password" required></input>
+        </div>
+        <div class="textbox">
+            <span>姓名<span>
+            <input type="text" id="mname" name="mname" required></input>
+        </div>
+        <div class="textbox">
+            <span>手機<span>
+            <input type="text" id="mphone" name="mphone" required></input>
+        </div>
+        <div class="textbox">
+            <span>市話<span>
+            <input type="text" id="mtel" name="mtel" required></input>
+        </div>
+        <div class="textbox">
+            <span>E-MAIL<span>
+            <input type="text" id="mmail" name="mmail" required></input>
+        </div>
+        <div class="textbox">
+            <span>收件地址<span>
+            <input type="text" id="mpost"" name="mpost" required></input>
+        </div>
+        <p><img src="captcha/code_num.php" id="getcode_num" title="看不清、點擊換一張" align="absmiddle">
+            <input type="text" class="input" id="code_num" name="code_num" maxlength="4" placeholder="請輸入驗證碼" />
+        </p>
+        <div class="btn">
+            <input type="submit" name="action" value="register"/>
+        </div>
+        </div>
+    </form>
+    <br/>
+    <div><a href="LOGIN.html">登入會員</a></div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type="text/javascript"  src="./scripts/login.js"></script>
+</body>
+</html>

@@ -1,0 +1,148 @@
+html{
+	background-color: rgba(253, 248, 232, 0.89);
+}
+ul{ 
+    list-style-type: none;
+    padding-inline-start: 0px;
+}
+header a{
+    text-decoration-line:none;
+    font-family:"Comic Sans MS";
+}
+/*step show*/
+.stepline{height: 70px;}
+.stepicon{
+    height: 50px;width: 50px;
+    display: inline-block;border-radius: 5px;
+    font-size: 20px;text-align: center;
+    vertical-align: middle;
+}
+.step{background-color: blue;cursor: pointer;}
+.step_now{background-color: green;}
+
+#carList li{position:relative;padding-bottom:15px;margin-bottom:15px;border-bottom:1px solid #ddd;}
+#carList img{display:block;width:100px;}
+.btn-close{padding:0 5px;cursor:default;}
+.btn-close:hover{background-color:#0072E3;color:#fff;}
+.subPrice{padding:5px 20px;color:#f00;font-weight:bold;text-align:right;}
+#carList .price{color:#f00;}
+.price::before{
+content:'NTD ';
+font-size:11px;
+}
+/* Table */
+table{
+    width:100%;
+    max-width: 1000px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #4F4F4F;
+    text-align: center;
+    background: #facc9a;
+    background: linear-gradient(0.25turn, white, #f7f8e1, #facc9a);
+    background-image: -webkit-linear-gradient(0.25turn, white, #f7f8e1, #facc9a); /* 支持 Chrome 25 and Safari 6, iOS 6.1, Android 4.3 */
+    background-image:    -moz-linear-gradient(0.25turn, white, #f7f8e1, #facc9a); /* 支持 Firefox (3.6 to 15) */
+    background-image:      -o-linear-gradient(0.25turn, white, #f7f8e1, #facc9a); /* 支持旧 Opera (11.1 to 12.0) */ 
+}
+table img {
+    margin-left: auto;
+    margin-right: auto;
+}
+/* Table Head */
+th {
+background-color:#8E8E8E;
+color: #fff;
+}
+/* Column Style */
+td {
+color: #3C3C3C;
+}
+/* Heading and Column Style */
+tr {
+border-width: 5px;
+border-style: solid;
+border-color: rgb(156, 186, 95);
+}
+
+/* Padding and font style */
+td {
+padding: 5px 5px;
+font-size: 12px;
+font-family: Verdana;
+font-weight: bold;
+}
+#carList .price span{font-size:11px;}
+
+#goStep2{
+    display: none;
+}
+.textbox>input{
+    width: 500px;
+}
+/*-----PAY頁面-----*/
+.addr_table{
+    margin-left: 0px;
+    table-layout:fixed;word-break:break-all;
+}
+
+/*--------*/
+/*----register頁面----*/
+#register_failed_show{
+    display: none;
+}
+
+input[type=submit] {
+    border-radius: 5px;
+    border: 0;
+    width: 80%;
+    height:25px;
+    font-family: Tahoma;
+    background: #f4f4f4;
+    /* Old browsers */
+    background: -moz-linear-gradient(top, #f4f4f4 1%, #ededed 100%);
+    /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(1%, #f4f4f4), color-stop(100%, #ededed));
+    /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #f4f4f4 1%, #ededed 100%);
+    /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #f4f4f4 1%, #ededed 100%);
+    /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #f4f4f4 1%, #ededed 100%);
+    /* IE10+ */
+    background: linear-gradient(to bottom, #f4f4f4 1%, #ededed 100%);
+    /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f4f4f4', endColorstr='#ededed', GradientType=0);
+    /* IE6-9 */
+}
+
+.loginform{
+    border: 2px solid cadetblue;
+    border-radius: 5px;
+    max-width: 350px;
+    padding: 5px;
+}
+.textbox{
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+/*--------*/
+@media only screen and (max-width:600px) { 
+    #mytable td {
+        font-size: 10px;
+    }
+    .price::before{
+        font-size:10px;
+    }
+    #carList .price span{font-size:10px;}
+
+    .textbox>input{
+        width: 70vw;
+    }
+    header, .btn{
+        text-align: center;
+    }
+ 
+}
+
+img[src="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost-white2.png"]{display: none;}
